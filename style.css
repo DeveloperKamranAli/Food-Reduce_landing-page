@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #eff6f0;
+}
+
+.container {
+    padding: 0px;
+    margin: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: auto;
+    width: 250px;
+}
+
+.navbar-nav .nav-item {
+    background-color: #7EB685;
+    padding: 6px 40px;
+    border-radius: 17px;
+}
+
+.nav-item .nav-link {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.nav-item .papular {
+    margin-left: 10px;
+}
+
+.nav-item .home {
+    padding-right: 30px !important;
+    padding-top: 10px;
+    border-right: 4px solid white;
+    height: 50px;
+}
+
+
+.nav-links {
+    margin: 0px 3% 0px 3% !important;
+}
+
+
+.btn button {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    background-color: #7EB685;
+    padding: 13px 40px;
+    border-radius: 40px;
+    border: none;
+}
+
+.btn button:focus {
+    outline: none;
+}
+
+/* hero section */
+
+.hero-section {
+    margin: 100px 0px 0px 0px;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-text h1 span {
+    color: #7EB685;
+}
+
+.food-span {
+    /* position: absolute; */
+    top: 328px;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.position-img {
+    position: relative;
+    /* display: flex; */
+}
+
+.get-start button {
+    height: auto;
+    width: 200px;
+}
+
+.get-start button:focus {
+    outline: none !important;
+}
+
+.junior-img-reise {
+    display: flex;
+    position: relative;
+    margin-top: 54px;
+    z-index: 2;
+}
+
+.background-img {
+    left: 10px;
+    position: absolute;
+}
+
+.dots-img {
+    position: absolute;
+    left: 90%;
+}
+
+.Ellipse-img {
+    margin-top: 10px;
+}
+
+.Ellipse-img .Ellipse-2 {
+    position: absolute;
+    margin-left: 40px;
+}
+
+.Ellipse-img .Ellipse-1 {
+    position: absolute;
+    margin-left: 0px;
+
+}
+
+.Ellipse-img .Ellipse-3 {
+    position: absolute;
+    margin-left: 85px;
+
+}
+
+/* recipe section */
+
+.people-H {
+    padding-top: 40px;
+}
+
+.people-H p {
+    font-size: 3vh;
+    font-weight: 400;
+    color: #4A8251;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    line-height: 10px;
+}
+
+.people-H h1 {
+    font-size: 5svh;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    justify-content: center;
+}
+
+.group-cards {
+    border-radius: 20px;
+    background-color: #DEEDE0;
+    width: 339px;
+    height: 370px;
+    align-items: center;
+}
+
+.group-cards img {
+    padding: 30px 40px 10px 40px;
+}
+
+.group-cards span {
+    padding: 10px 0px 0px 50px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+/* papular section */
+
+.img-star {
+    /* display: flex; */
+    margin-left: 170px;
+}
+
+.img-star span {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+.reviews-stars {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #0000008A;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 0%;
+    /* padding-top: 5px; */
+}
+
+.reviews-stars p {
+    margin-top: 20px;
+}
+
+/* papular section */
+
+
+.popular {
+    position: relative;
+}
+
+.display-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.icon-co {
+    display: flex;
+    position: relative;
+}
+
+.img-colon {
+    position: absolute;
+    left: 14px;
+}
+
+.card-popular {
+    border-radius: 17px;
+    background-color: #CFE4D2;
+    width: 339px;
+    height: 440px;
+    margin-top: 30px;
+}
+
+.card-popular span {
+    position: absolute;
+    padding: 50px 0px 0px 0px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #2F2E41;
+    font-family: "Roboto", sans-serif;
+}
+
+.span-1 {
+    margin-left: 50px;
+}
+
+.span-2 {
+    margin-left: 30px;
+}
+
+.span-3 {
+    margin-left: 40px;
+}
+
+.stars-imgs {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.stars-imgs img {
+    margin-top: 84%;
+    height: 40px;
+}
+
+.p-Jessica {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* footer section */
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: khaki;
+    margin: 30px 0px;
+    /* border: none; */
+}
+
+.sign-up{
+    color: white;
+    font-size: 20vh;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    background-color: #7EB685;
+    padding: 13px 40px;
+    border-radius: 40px;
+    border: none;
+}
+
+.card-text{
+    font-size: 5vh;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Roboto";
+}
+
+
+
+
+
+@media (max-width: 500px) {
+
+    .hero-section {
+        margin-left: 12px;
+        margin-top: 0px;
+    }
+
+    .hero-text h1 {
+        font-size: 47px;
+    }
+
+    .food-span {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .dots-img img {
+        visibility: hidden;
+        display: none;
+    }
+
+    .get-start button {
+        margin-left: 50px;
+    }
+
+    /* recipe section */
+
+    .cards {
+        gap: 40px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* .main-hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 40px 20px 150px;
+}
+
+.main-hero .hero-section {
+    position: relative;
+    margin-top: 100px;
+}
+
+.hero-text h1 {
+    font-size: 80px;
+    color: black;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-text h1 span {
+    color: #7EB685;
+}
+
+.food-span {
+    position: absolute;
+    top: 328px;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.get-start {
+    margin-top: 150px;
+}
+
+.position-img{
+    margin-top: 100px;
+}
+
+.Ellipse-img {
+    margin-top: 30px;
+}
+
+.Ellipse-img .Ellipse-2 {
+    position: absolute;
+    margin-left: 40px;
+}
+
+.Ellipse-img .Ellipse-1 {
+    position: absolute;
+    margin-left: 0px;
+
+}
+
+.Ellipse-img .Ellipse-3 {
+    position: absolute;
+    margin-left: 85px;
+
+}
+
+.img-star {
+    margin-left: 170px;
+}
+
+.img-star span {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+
+.reviews-stars {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #0000008A;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 0%;
+}
+
+.background-img {
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+}
+
+.junior-img-reise {
+    display: flex;
+}
+
+.position {
+    margin-right: 40px;
+    z-index: 1;
+}
+
+.dots-img {
+    position: absolute;
+    margin-left: 490px;
+    z-index: 0;
+} */
+
+/* recipe section */
+
+
+/* .people-H {
+    padding-top: 40px;
+}
+
+.people-H p {
+    font-size: 3vh;
+    font-weight: 400;
+    color: #4A8251;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    line-height: 10px;
+}
+
+.people-H h1 {
+    font-size: 5svh;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    justify-content: center;
+}
+
+.group-cards {
+    border-radius: 20px;
+    background-color: #DEEDE0;
+    width: 339px;
+    height: 370px;
+    align-items: center;
+}
+
+.group-cards img {
+    padding: 30px 40px 10px 40px;
+}
+
+.group-cards span {
+    padding: 10px 0px 0px 50px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+} */
+
+/* popular section */
+/* 
+.popular {
+    position: relative;
+}
+
+.display-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.icon-co {
+    display: flex;
+    position: relative;
+}
+
+.img-colon {
+    position: absolute;
+    left: 14px;
+}
+
+.card-popular {
+    border-radius: 17px;
+    background-color: #CFE4D2;
+    width: 339px;
+    height: 440px;
+    margin-top: 30px;
+}
+
+.card-popular span {
+    position: absolute;
+    padding: 50px 0px 0px 0px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #2F2E41;
+    font-family: "Roboto", sans-serif;
+}
+
+.span-1 {
+    margin-left: 50px;}
+
+.span-2 {
+    margin-left: 30px;
+}
+
+.span-3 {
+    margin-left: 40px;
+}
+
+.stars-imgs {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.stars-imgs img {
+    margin-top: 84%;
+    height: 40px;
+}
+
+.p-Jessica {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+
+} */
+
+/* footer section */
+.footer-section {
+    background-color: khaki;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading h1 {
+    font-size: 5vh;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Roboto";
+}
